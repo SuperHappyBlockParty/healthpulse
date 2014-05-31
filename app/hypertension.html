@@ -16,7 +16,16 @@
 	<!-- Custom styles for this template -->
 	<link href="css/jumbotron.css" rel="stylesheet">
 	<link href="css/navbar.css" rel="stylesheet">
-
+<style>
+        .chart div {
+            font: 10px sans-serif;
+            background-color: steelblue;
+            text-align: right;
+            padding: 3px;
+            margin: 1px;
+            color: white;
+        }
+    </style>
 	<!-- Just for debugging purposes. Don't actually copy this line! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -155,33 +164,8 @@ The top number is called the systolic blood pressure. The bottom number is calle
 			</div>
 		</div>
 
-		<!--<div class="container">
-      
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Hypertension</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Diabetes</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Cancer</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-    </div>-->
-		<!-- /container -->
+		<h1>Hypertension Chart (Percentage of Adults Age 20 and Over)</h1>
+    <div class="chart"></div>
 
 
 		<!-- Bootstrap core JavaScript
@@ -189,5 +173,66 @@ The top number is called the systolic blood pressure. The bottom number is calle
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="../../dist/js/bootstrap.min.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+    var hyperTensionData = [
+        {
+            "daterange": "1988 - 1994",
+            "totalAgeAdjusted": 25.5,
+            "totalCrude": 24.1
+
+        },
+        {
+            "daterange": "1999 - 2000",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 28.9
+        },
+        {
+            "daterange": "2001-2002",
+            "totalAgeAdjusted": 29.7,
+            "totalCrude": 28.9
+
+        },
+        {
+            "daterange": "2003 - 2004",
+            "totalAgeAdjusted": 32.1,
+            "totalCrude": 32.5
+
+        },
+        {
+            "daterange": "2005 - 2006",
+            "totalAgeAdjusted": 30.5,
+            "totalCrude": 31.7
+
+        },
+        {
+            "daterange": "2007 - 2008",
+            "totalAgeAdjusted": 31.2,
+            "totalCrude": 32.6
+
+        },
+        {
+            "daterange": "2009 - 2010",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 31.9
+        },
+        {
+            "daterange": "2011 - 2012",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 32.5
+        }
+    ];
+
+    d3.select(".chart")
+            .selectAll("div")
+            .data(hyperTensionData)
+            .enter().append( "div")
+            .style("width", function(d) { return d.totalCrude * 20 + "px"; })
+            .style("height", function(d) { return "50px"; })
+            .style("font-size", function(d) { return "110%"; })
+            .text(function(d) { return d.daterange + ": " +  d.totalCrude + "%"; });
+</script>
+
 </body>
 </html>
