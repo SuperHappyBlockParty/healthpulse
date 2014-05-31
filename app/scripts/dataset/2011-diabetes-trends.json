@@ -1,0 +1,1260 @@
+{
+    "id": "crtu-weni",
+    "name": "Selected Trend Table from Health, United States, 2011. Diabetes prevalence and glycemic control among adults 20 years of age and over, by sex, age, and race and Hispanic origin: United States, selected years 1988–1994 through 2003–2006",
+    "attribution": "Health, United States",
+    "attributionLink": "http://www.cdc.gov/nchs/hus.htm",
+    "averageRating": 0,
+    "category": "Health Statistics",
+    "createdAt": 1375128759,
+    "description": "Health, United States is an annual report on trends in health statistics, find more information at http://www.cdc.gov/nchs/hus.htm.",
+    "displayType": "table",
+    "downloadCount": 516,
+    "indexUpdatedAt": 1376361701,
+    "newBackend": false,
+    "numberOfComments": 0,
+    "oid": 4774700,
+    "publicationAppendEnabled": false,
+    "publicationDate": 1375713070,
+    "publicationGroup": 1006869,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1375711832,
+    "rowsUpdatedBy": "g3fc-zmqn",
+    "tableId": 1020189,
+    "totalTimesRated": 0,
+    "viewCount": 414,
+    "viewLastModified": 1375734159,
+    "viewType": "tabular",
+    "columns": [
+        {
+            "id": 87226518,
+            "name": "Category",
+            "dataTypeName": "text",
+            "fieldName": "category",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 12626876,
+            "width": 340,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "20-44 years",
+                "null": 0,
+                "largest": "Percent of poverty level: Below 100%",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "All persons"
+                    },
+                    {
+                        "count": 19,
+                        "item": "Male"
+                    },
+                    {
+                        "count": 18,
+                        "item": "Female"
+                    },
+                    {
+                        "count": 17,
+                        "item": "Not Hispanic or Latino: White only"
+                    },
+                    {
+                        "count": 16,
+                        "item": "Not Hispanic or Latino: Black or African American only"
+                    },
+                    {
+                        "count": 15,
+                        "item": "Mexican"
+                    },
+                    {
+                        "count": 14,
+                        "item": "Percent of poverty level: Below 100%"
+                    },
+                    {
+                        "count": 13,
+                        "item": "Percent of poverty level: 100% or more"
+                    },
+                    {
+                        "count": 12,
+                        "item": "Percent of poverty level: 100%-199%"
+                    },
+                    {
+                        "count": 11,
+                        "item": "Percent of poverty level: 200% or more"
+                    },
+                    {
+                        "count": 10,
+                        "item": "Percent of poverty level: 200%-399%"
+                    },
+                    {
+                        "count": 9,
+                        "item": "Percent of poverty level: 400% or more"
+                    },
+                    {
+                        "count": 8,
+                        "item": "20-44 years"
+                    },
+                    {
+                        "count": 7,
+                        "item": "45-64 years"
+                    },
+                    {
+                        "count": 6,
+                        "item": "65 years and over"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226519,
+            "name": "Category flag",
+            "dataTypeName": "number",
+            "fieldName": "category_flag",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 12626878,
+            "width": 175,
+            "cachedContents": {
+                "non_null": 49,
+                "smallest": "5",
+                "sum": "287",
+                "null": 47,
+                "average": "5.857142857142857",
+                "largest": "6",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "5"
+                    },
+                    {
+                        "count": 19,
+                        "item": "6"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226580,
+            "name": "Group",
+            "dataTypeName": "text",
+            "fieldName": "group",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 12626880,
+            "width": 227,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "20 years and over, age-adjusted",
+                "null": 0,
+                "largest": "20 years and over, crude",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "20 years and over, age-adjusted"
+                    },
+                    {
+                        "count": 19,
+                        "item": "20 years and over, crude"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226597,
+            "name": "Group flag",
+            "dataTypeName": "number",
+            "fieldName": "group_flag",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 12626882,
+            "width": 164,
+            "cachedContents": {
+                "non_null": 51,
+                "smallest": "4",
+                "sum": "249",
+                "null": 45,
+                "average": "4.882352941176471",
+                "largest": "7",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "4"
+                    },
+                    {
+                        "count": 19,
+                        "item": "7"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226598,
+            "name": "Prevalence",
+            "dataTypeName": "text",
+            "fieldName": "prevalence",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 12626883,
+            "width": 363,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "Physician-diagnosed and undiagnosed diabetes",
+                "null": 0,
+                "largest": "Undiagnosed diabetes",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "Physician-diagnosed and undiagnosed diabetes"
+                    },
+                    {
+                        "count": 19,
+                        "item": "Physician-diagnosed diabetes"
+                    },
+                    {
+                        "count": 18,
+                        "item": "Undiagnosed diabetes"
+                    },
+                    {
+                        "count": 17,
+                        "item": "Poor glycemic control (A1c greater than 9%) among persons with diagnosed diabetes"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226599,
+            "name": "Prevalence note",
+            "dataTypeName": "text",
+            "fieldName": "prevalence_note",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 12626885,
+            "width": 280,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "Percent of population",
+                "null": 0,
+                "largest": "Percent of population with diagnosed diabetes",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "Percent of population"
+                    },
+                    {
+                        "count": 19,
+                        "item": "Percent of population with diagnosed diabetes"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226600,
+            "name": "Prevalence flag 1",
+            "dataTypeName": "number",
+            "fieldName": "prevalence_flag_1",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 12626887,
+            "width": 304,
+            "cachedContents": {
+                "non_null": 81,
+                "smallest": "1",
+                "sum": "108",
+                "null": 15,
+                "average": "1.333333333333333",
+                "largest": "2",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "1"
+                    },
+                    {
+                        "count": 19,
+                        "item": "2"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226601,
+            "name": "Prevalence flag 2",
+            "dataTypeName": "number",
+            "fieldName": "prevalence_flag_2",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 12626889,
+            "width": 304,
+            "cachedContents": {
+                "non_null": 27,
+                "smallest": "2",
+                "sum": "54",
+                "null": 69,
+                "average": "2",
+                "largest": "2",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "2"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226602,
+            "name": "1988-1994",
+            "dataTypeName": "number",
+            "fieldName": "_1988_1994",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 12626892,
+            "width": 208,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "1.0",
+                "sum": "891.2",
+                "null": 0,
+                "average": "9.283333333333333",
+                "largest": "34.2",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "8.4"
+                    },
+                    {
+                        "count": 19,
+                        "item": "5.1"
+                    },
+                    {
+                        "count": 18,
+                        "item": "4.3"
+                    },
+                    {
+                        "count": 17,
+                        "item": "3.6"
+                    },
+                    {
+                        "count": 16,
+                        "item": "4.1"
+                    },
+                    {
+                        "count": 15,
+                        "item": "3.1"
+                    },
+                    {
+                        "count": 14,
+                        "item": "3.3"
+                    },
+                    {
+                        "count": 13,
+                        "item": "3.0"
+                    },
+                    {
+                        "count": 12,
+                        "item": "2.8"
+                    },
+                    {
+                        "count": 11,
+                        "item": "6.0"
+                    },
+                    {
+                        "count": 10,
+                        "item": "26.0"
+                    },
+                    {
+                        "count": 9,
+                        "item": "18.0"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226603,
+            "name": "1988-1994 flag",
+            "dataTypeName": "text",
+            "fieldName": "_1988_1994_flag",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 12626893,
+            "width": 268,
+            "cachedContents": {
+                "non_null": 4,
+                "smallest": "*",
+                "null": 92,
+                "largest": "*",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "*"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226604,
+            "name": "1988-1994 SE",
+            "dataTypeName": "number",
+            "fieldName": "_1988_1994_se",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 12626895,
+            "width": 244,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "0.2",
+                "sum": "86.9",
+                "null": 0,
+                "average": "0.9052083333333333",
+                "largest": "5.7",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "0.4"
+                    },
+                    {
+                        "count": 19,
+                        "item": "0.6"
+                    },
+                    {
+                        "count": 18,
+                        "item": "0.7"
+                    },
+                    {
+                        "count": 17,
+                        "item": "1.1"
+                    },
+                    {
+                        "count": 16,
+                        "item": "0.8"
+                    },
+                    {
+                        "count": 15,
+                        "item": "0.5"
+                    },
+                    {
+                        "count": 14,
+                        "item": "0.3"
+                    },
+                    {
+                        "count": 13,
+                        "item": "0.9"
+                    },
+                    {
+                        "count": 12,
+                        "item": "1.0"
+                    },
+                    {
+                        "count": 11,
+                        "item": "0.2"
+                    },
+                    {
+                        "count": 10,
+                        "item": "1.9"
+                    },
+                    {
+                        "count": 9,
+                        "item": "2.6"
+                    },
+                    {
+                        "count": 8,
+                        "item": "2.5"
+                    },
+                    {
+                        "count": 7,
+                        "item": "2.9"
+                    },
+                    {
+                        "count": 6,
+                        "item": "3.2"
+                    },
+                    {
+                        "count": 5,
+                        "item": "3.5"
+                    },
+                    {
+                        "count": 4,
+                        "item": "2.1"
+                    },
+                    {
+                        "count": 3,
+                        "item": "3.6"
+                    },
+                    {
+                        "count": 2,
+                        "item": "2.8"
+                    },
+                    {
+                        "count": 1,
+                        "item": "4.3"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226605,
+            "name": "1988-1994 SE flag",
+            "dataTypeName": "text",
+            "fieldName": "_1988_1994_se_flag",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 12626897,
+            "width": 304,
+            "cachedContents": {
+                "non_null": 0,
+                "null": 96
+            },
+            "format": {}
+        },
+        {
+            "id": 87226606,
+            "name": "1999-2002",
+            "dataTypeName": "number",
+            "fieldName": "_1999_2002",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 12626899,
+            "width": 208,
+            "cachedContents": {
+                "non_null": 94,
+                "smallest": "1.9",
+                "sum": "838.7",
+                "null": 2,
+                "average": "8.922340425531915",
+                "largest": "32.1",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "6.5"
+                    },
+                    {
+                        "count": 19,
+                        "item": "2.3"
+                    },
+                    {
+                        "count": 18,
+                        "item": "3.2"
+                    },
+                    {
+                        "count": 17,
+                        "item": "2.6"
+                    },
+                    {
+                        "count": 16,
+                        "item": "3.1"
+                    },
+                    {
+                        "count": 15,
+                        "item": "2.7"
+                    },
+                    {
+                        "count": 14,
+                        "item": "17.3"
+                    },
+                    {
+                        "count": 13,
+                        "item": "32.1"
+                    },
+                    {
+                        "count": 12,
+                        "item": "19.9"
+                    },
+                    {
+                        "count": 11,
+                        "item": "10.2"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226607,
+            "name": "1999-2002 flag",
+            "dataTypeName": "text",
+            "fieldName": "_1999_2002_flag",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 12626900,
+            "width": 268,
+            "cachedContents": {
+                "non_null": 9,
+                "smallest": "*",
+                "null": 87,
+                "largest": "*",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "*"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226608,
+            "name": "1999-2002 SE",
+            "dataTypeName": "number",
+            "fieldName": "_1999_2002_se",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 12626902,
+            "width": 244,
+            "cachedContents": {
+                "non_null": 94,
+                "smallest": "0.3",
+                "sum": "96.1",
+                "null": 2,
+                "average": "1.022340425531915",
+                "largest": "7.0",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "0.4"
+                    },
+                    {
+                        "count": 19,
+                        "item": "0.6"
+                    },
+                    {
+                        "count": 18,
+                        "item": "0.5"
+                    },
+                    {
+                        "count": 17,
+                        "item": "1.0"
+                    },
+                    {
+                        "count": 16,
+                        "item": "0.7"
+                    },
+                    {
+                        "count": 15,
+                        "item": "1.3"
+                    },
+                    {
+                        "count": 14,
+                        "item": "1.1"
+                    },
+                    {
+                        "count": 13,
+                        "item": "5.0"
+                    },
+                    {
+                        "count": 12,
+                        "item": "1.2"
+                    },
+                    {
+                        "count": 11,
+                        "item": "0.8"
+                    },
+                    {
+                        "count": 10,
+                        "item": "0.3"
+                    },
+                    {
+                        "count": 9,
+                        "item": "0.9"
+                    },
+                    {
+                        "count": 8,
+                        "item": "2.2"
+                    },
+                    {
+                        "count": 7,
+                        "item": "3.1"
+                    },
+                    {
+                        "count": 6,
+                        "item": "2.0"
+                    },
+                    {
+                        "count": 5,
+                        "item": "2.5"
+                    },
+                    {
+                        "count": 4,
+                        "item": "2.8"
+                    },
+                    {
+                        "count": 3,
+                        "item": "3.5"
+                    },
+                    {
+                        "count": 2,
+                        "item": "3.6"
+                    },
+                    {
+                        "count": 1,
+                        "item": "2.9"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226609,
+            "name": "1999-2002 SE flag",
+            "dataTypeName": "text",
+            "fieldName": "_1999_2002_se_flag",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 12626904,
+            "width": 304,
+            "cachedContents": {
+                "non_null": 2,
+                "smallest": "*",
+                "null": 94,
+                "largest": "*",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "*"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226610,
+            "name": "2001-2004",
+            "dataTypeName": "number",
+            "fieldName": "_2001_2004",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 12626905,
+            "width": 208,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "1.1",
+                "sum": "839.7",
+                "null": 0,
+                "average": "8.746875",
+                "largest": "26.4",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "9.5"
+                    },
+                    {
+                        "count": 19,
+                        "item": "9.8"
+                    },
+                    {
+                        "count": 18,
+                        "item": "7.5"
+                    },
+                    {
+                        "count": 17,
+                        "item": "7.3"
+                    },
+                    {
+                        "count": 16,
+                        "item": "7.2"
+                    },
+                    {
+                        "count": 15,
+                        "item": "6.7"
+                    },
+                    {
+                        "count": 14,
+                        "item": "9.2"
+                    },
+                    {
+                        "count": 13,
+                        "item": "5.8"
+                    },
+                    {
+                        "count": 12,
+                        "item": "18.1"
+                    },
+                    {
+                        "count": 11,
+                        "item": "3.3"
+                    },
+                    {
+                        "count": 10,
+                        "item": "4.5"
+                    },
+                    {
+                        "count": 9,
+                        "item": "2.3"
+                    },
+                    {
+                        "count": 8,
+                        "item": "2.9"
+                    },
+                    {
+                        "count": 7,
+                        "item": "4.1"
+                    },
+                    {
+                        "count": 6,
+                        "item": "3.5"
+                    },
+                    {
+                        "count": 5,
+                        "item": "4.6"
+                    },
+                    {
+                        "count": 4,
+                        "item": "3.1"
+                    },
+                    {
+                        "count": 3,
+                        "item": "3.7"
+                    },
+                    {
+                        "count": 2,
+                        "item": "3.6"
+                    },
+                    {
+                        "count": 1,
+                        "item": "3.2"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226611,
+            "name": "2001-2004 flag",
+            "dataTypeName": "text",
+            "fieldName": "_2001_2004_flag",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 12626906,
+            "width": 268,
+            "cachedContents": {
+                "non_null": 7,
+                "smallest": "*",
+                "null": 89,
+                "largest": "*",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "*"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226612,
+            "name": "2001-2004 SE",
+            "dataTypeName": "number",
+            "fieldName": "_2001_2004_se",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 12626907,
+            "width": 244,
+            "cachedContents": {
+                "non_null": 96,
+                "smallest": "0.2",
+                "sum": "87.8",
+                "null": 0,
+                "average": "0.9145833333333333",
+                "largest": "4.4",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "0.5"
+                    },
+                    {
+                        "count": 19,
+                        "item": "0.7"
+                    },
+                    {
+                        "count": 18,
+                        "item": "0.9"
+                    },
+                    {
+                        "count": 17,
+                        "item": "1.0"
+                    },
+                    {
+                        "count": 16,
+                        "item": "1.3"
+                    },
+                    {
+                        "count": 15,
+                        "item": "1.1"
+                    },
+                    {
+                        "count": 14,
+                        "item": "0.6"
+                    },
+                    {
+                        "count": 13,
+                        "item": "0.8"
+                    },
+                    {
+                        "count": 12,
+                        "item": "1.2"
+                    },
+                    {
+                        "count": 11,
+                        "item": "0.4"
+                    },
+                    {
+                        "count": 10,
+                        "item": "1.6"
+                    },
+                    {
+                        "count": 9,
+                        "item": "0.3"
+                    },
+                    {
+                        "count": 8,
+                        "item": "0.2"
+                    },
+                    {
+                        "count": 7,
+                        "item": "1.8"
+                    },
+                    {
+                        "count": 6,
+                        "item": "3.1"
+                    },
+                    {
+                        "count": 5,
+                        "item": "1.9"
+                    },
+                    {
+                        "count": 4,
+                        "item": "2.6"
+                    },
+                    {
+                        "count": 3,
+                        "item": "3.4"
+                    },
+                    {
+                        "count": 2,
+                        "item": "2.9"
+                    },
+                    {
+                        "count": 1,
+                        "item": "1.7"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226613,
+            "name": "2001-2004 SE flag",
+            "dataTypeName": "text",
+            "fieldName": "_2001_2004_se_flag",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 12626908,
+            "width": 304,
+            "cachedContents": {
+                "non_null": 0,
+                "null": 96
+            },
+            "format": {}
+        },
+        {
+            "id": 87226614,
+            "name": "2003-2006",
+            "dataTypeName": "number",
+            "fieldName": "_2003_2006",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 12626909,
+            "width": 208,
+            "cachedContents": {
+                "non_null": 93,
+                "smallest": "1.1",
+                "sum": "839.2",
+                "null": 3,
+                "average": "9.023655913978495",
+                "largest": "25.7",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "2.6"
+                    },
+                    {
+                        "count": 19,
+                        "item": "2.9"
+                    },
+                    {
+                        "count": 18,
+                        "item": "4.0"
+                    },
+                    {
+                        "count": 17,
+                        "item": "2.0"
+                    },
+                    {
+                        "count": 16,
+                        "item": "3.0"
+                    },
+                    {
+                        "count": 15,
+                        "item": "14.8"
+                    },
+                    {
+                        "count": 14,
+                        "item": "24.7"
+                    },
+                    {
+                        "count": 13,
+                        "item": "16.6"
+                    },
+                    {
+                        "count": 12,
+                        "item": "4.1"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226615,
+            "name": "2003-2006 flag",
+            "dataTypeName": "text",
+            "fieldName": "_2003_2006_flag",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 12626910,
+            "width": 268,
+            "cachedContents": {
+                "non_null": 11,
+                "smallest": "*",
+                "null": 85,
+                "largest": "*",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "*"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226616,
+            "name": "2003-2006 SE",
+            "dataTypeName": "number",
+            "fieldName": "_2003_2006_se",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 12626911,
+            "width": 244,
+            "cachedContents": {
+                "non_null": 93,
+                "smallest": "0.3",
+                "sum": "86.9",
+                "null": 3,
+                "average": "0.9344086021505376",
+                "largest": "4.3",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "0.5"
+                    },
+                    {
+                        "count": 19,
+                        "item": "0.7"
+                    },
+                    {
+                        "count": 18,
+                        "item": "0.6"
+                    },
+                    {
+                        "count": 17,
+                        "item": "0.9"
+                    },
+                    {
+                        "count": 16,
+                        "item": "1.2"
+                    },
+                    {
+                        "count": 15,
+                        "item": "1.3"
+                    },
+                    {
+                        "count": 14,
+                        "item": "1.1"
+                    },
+                    {
+                        "count": 13,
+                        "item": "0.8"
+                    },
+                    {
+                        "count": 12,
+                        "item": "1.5"
+                    },
+                    {
+                        "count": 11,
+                        "item": "1.0"
+                    },
+                    {
+                        "count": 10,
+                        "item": "0.4"
+                    },
+                    {
+                        "count": 9,
+                        "item": "1.8"
+                    },
+                    {
+                        "count": 8,
+                        "item": "0.3"
+                    },
+                    {
+                        "count": 7,
+                        "item": "2.4"
+                    },
+                    {
+                        "count": 6,
+                        "item": "1.9"
+                    },
+                    {
+                        "count": 5,
+                        "item": "2.6"
+                    },
+                    {
+                        "count": 4,
+                        "item": "3.2"
+                    },
+                    {
+                        "count": 3,
+                        "item": "3.4"
+                    },
+                    {
+                        "count": 2,
+                        "item": "1.4"
+                    },
+                    {
+                        "count": 1,
+                        "item": "3.0"
+                    }
+                ]
+            },
+            "format": {}
+        },
+        {
+            "id": 87226617,
+            "name": "2003-2006 SE flag",
+            "dataTypeName": "text",
+            "fieldName": "_2003_2006_se_flag",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 12626912,
+            "width": 304,
+            "cachedContents": {
+                "non_null": 3,
+                "smallest": "*",
+                "null": 93,
+                "largest": "*",
+                "top": [
+                    {
+                        "count": 20,
+                        "item": "*"
+                    }
+                ]
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "rdfSubject": "0",
+        "attachments": [
+            {
+                "blobId": "3944AC04-10F8-40FD-9773-3428F9826824",
+                "name": "HUS_diabetes_footnotes.htm",
+                "filename": "HUS_diabetes_footnotes.htm"
+            }
+        ],
+        "rowIdentifier": "0",
+        "rdfClass": ""
+    },
+    "owner": {
+        "id": "vr5q-rutf",
+        "displayName": "SFranco",
+        "roleName": "editor",
+        "screenName": "SFranco",
+        "rights": [
+            "create_datasets",
+            "view_domain",
+            "create_pages",
+            "view_goals",
+            "view_dashboards"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "g3fc-zmqn",
+        "displayName": "CDC",
+        "profileImageUrlLarge": "/images/profile/7958/3844/HHS_CDC_ATSDR_rgb_large.jpg",
+        "profileImageUrlMedium": "/images/profile/7958/3844/HHS_CDC_ATSDR_rgb_thumb.jpg",
+        "profileImageUrlSmall": "/images/profile/7958/3844/HHS_CDC_ATSDR_rgb_tiny.jpg",
+        "roleName": "administrator",
+        "screenName": "CDC",
+        "rights": [
+            "create_datasets",
+            "edit_others_datasets",
+            "edit_sdp",
+            "edit_site_theme",
+            "moderate_comments",
+            "manage_users",
+            "chown_datasets",
+            "edit_nominations",
+            "approve_nominations",
+            "feature_items",
+            "federations",
+            "manage_stories",
+            "manage_approval",
+            "change_configurations",
+            "view_domain",
+            "view_others_datasets",
+            "edit_pages",
+            "create_pages",
+            "view_goals",
+            "view_dashboards",
+            "edit_goals",
+            "edit_dashboards",
+            "create_dashboards"
+        ]
+    },
+    "tags": [
+        "hus",
+        "diabetes",
+        "adults"
+    ],
+    "flags": [
+        "default"
+    ]
+}
