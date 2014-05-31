@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hypertension Chart</title>
+    <style>
+        .chart div {
+            font: 10px sans-serif;
+            background-color: steelblue;
+            text-align: right;
+            padding: 3px;
+            margin: 1px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hypertension Chart (Percentage of Adults Age 20 and Over)</h1>
+    <div class="chart"></div>
+</body>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+    var hyperTensionData = [
+        {
+            "daterange": "1988 - 1994",
+            "totalAgeAdjusted": 25.5,
+            "totalCrude": 24.1
+
+        },
+        {
+            "daterange": "1999 - 2000",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 28.9
+        },
+        {
+            "daterange": "2001-2002",
+            "totalAgeAdjusted": 29.7,
+            "totalCrude": 28.9
+
+        },
+        {
+            "daterange": "2003 - 2004",
+            "totalAgeAdjusted": 32.1,
+            "totalCrude": 32.5
+
+        },
+        {
+            "daterange": "2005 - 2006",
+            "totalAgeAdjusted": 30.5,
+            "totalCrude": 31.7
+
+        },
+        {
+            "daterange": "2007 - 2008",
+            "totalAgeAdjusted": 31.2,
+            "totalCrude": 32.6
+
+        },
+        {
+            "daterange": "2009 - 2010",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 31.9
+        },
+        {
+            "daterange": "2011 - 2012",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 32.5
+        }
+    ];
+
+    d3.select(".chart")
+            .selectAll("div")
+            .data(hyperTensionData)
+            .enter().append( "div")
+            .style("width", function(d) { return d.totalCrude * 20 + "px"; })
+            .style("height", function(d) { return "50px"; })
+            .style("font-size", function(d) { return "110%"; })
+            .text(function(d) { return d.daterange + ": " +  d.totalCrude + "%"; });
+</script>
+</html>

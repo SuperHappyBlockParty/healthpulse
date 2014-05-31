@@ -16,20 +16,137 @@
 </head>
 <body>
     <div class="chart"></div>
+    <div class="chart2"></div>
+    <div class="chart3"></div>
+
+    <div class="hyperTensionchart">
+        <div style="width: 40px;">4</div>
+        <div style="width: 80px;">8</div>
+        <div style="width: 150px;">15</div>
+        <div style="width: 160px;">16</div>
+        <div style="width: 230px;">23</div>
+        <div style="width: 420px;">42</div>
+    </div>
+
 </body>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript">
     var data = [4, 8, 15, 16, 23, 42];
+    var data2;
+    var arrayOfStuff = [];
+
+    var hyperTensionData = [
+        {
+            "daterange": "1988 - 1994",
+            "totalAgeAdjusted": 25.5,
+            "totalCrude": 24.1
+
+        },
+        {
+            "daterange": "1999 - 2000",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 28.9
+        },
+        {
+            "daterange": "2001-2002",
+            "totalAgeAdjusted": 29.7,
+            "totalCrude": 28.9
+
+        },
+        {
+            "daterange": "2003 - 2004",
+            "totalAgeAdjusted": 32.1,
+            "totalCrude": 32.5
+
+        },
+        {
+            "daterange": "2005 - 2006",
+            "totalAgeAdjusted": 30.5,
+            "totalCrude": 31.7
+
+        },
+        {
+            "daterange": "2007 - 2008",
+            "totalAgeAdjusted": 31.2,
+            "totalCrude": 32.6
+
+        },
+        {
+            "daterange": "2009 - 2010",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 31.9
+        },
+        {
+            "daterange": "2011 - 2012",
+            "totalAgeAdjusted": 30.0,
+            "totalCrude": 32.5
+        }
+    ];
+
+
+//
+//    $.getJSON( "test/testData.json", function( data ) {
+//        var items = [];
+//        data2 = data;
+//        $.each( data, function( key, val ) {
+//            arrayOfStuff.push(val);
+//            items.push( "<li id='" + key + "'>" + val + "</li>" );
+//        });
+//
+//        $( "<ul/>", {
+//            "class": "my-new-list",
+//            html: items.join( "" )
+//        }).appendTo( "body" );
+//    });
     var body = d3.select("body");
     var div = body.append("div");
     div.html("Hello,world!");
 
+//    d3.select(".chart")
+//            .selectAll("div")
+//            .data(data)
+//            .enter().append("div")
+//            .style("width", function(d) { return d * 10 + "px"; })
+//            .text(function(d) { return d; });
+
     d3.select(".chart")
             .selectAll("div")
-            .data(data)
+            .data(hyperTensionData)
             .enter().append("div")
-            .style("width", function(d) { return d * 10 + "px"; })
-            .text(function(d) { return d; });
+            .style("width", function(d) { return d.totalCrude * 10 + "px"; })
+            .style("height", function(d) { return "50px"; })
+            .style("font-size", function(d) { return "110%"; })
+            .text(function(d) { return d.daterange  +  d.totalCrude; });
+
+    //alert("hi");
+    var hyperTensionData;
+
+//    $.getJSON("app/scripts/dataset/sample.json", function(data) {
+//        hyperTensionData = data;
+//    });
+
+    $.each(hyperTensionData, function(index, value) {
+        //alert(index);
+    });
+
+
+    //    d3.select(".chart2")
+//            .selectAll("div")
+//            .data(arrayOfStuff)
+//            .enter().append("div")
+//            .style("width", function(d) { return d.stuff * 10 + "px"; })
+//            .text(function(d) { return d.stuff.close; });
+
+//    d3.select(".chart2")
+//            .selectAll("div")
+//            .json("testData.json", function (error, data) {
+//                data.forEach(function (d) {
+//                d.dateOrig = d.date;
+//                d.date = parseDate(d.date);
+//                d.close = +d.close;
+//            });
+//    });
     //d3.select("body").style("color", "black").style("background-color","white");
 </script>
 </html>
