@@ -1,0 +1,18 @@
+Which health condition is at most risk overall?
+
+Which health condition is at most risk as of late (2011-2012)?
+
+Which health condition is at least risk overall?
+
+Which health condition is at least risk as of late (2011-2012)?
+
+
+
+
+Estimates are age-adjusted to the year 2000 standard population using three age groups: 20–44 years, 45–64 years, and 65 years and over. Age-adjusted estimates in this table may differ from other age-adjusted estimates based on the same data presented elsewhere if different age groups are used in the adjustment procedure.
+
+Hypertension is defined as having measured high blood pressure and/or taking antihypertensive medication. High blood pressure is defined as having measured systolic pressure of at least 140 mm Hg or diastolic pressure of at least 90 mm Hg. Those with high blood pressure also may be taking prescribed medicine for high blood pressure. For antihypertensive medication use, respondents were asked, "Are you now taking prescribed medicine for your high blood pressure?"
+
+Uncontrolled high blood pressure among persons with hypertension is defined as measured systolic pressure of at least 140 mm Hg or diastolic pressure of at least 90 mm Hg, among those with measured high blood pressure or reporting taking antihypertensive medication.
+
+Undiagnosed diabetes is defined as a fasting plasma glucose (FPG) of at least 126 mg/dL or a hemoglobin A1c of at least 6.5% and no reported physician diagnosis.
