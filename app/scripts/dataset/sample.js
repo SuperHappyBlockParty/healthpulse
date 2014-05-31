@@ -1,4 +1,11 @@
 //Sample set
+
+/*
+Selected health conditions and risk factors, by age: United States, selected years 1988–994 through 2011–2012.
+
+Data are based on interviews and physical examinations of a sample of the civilian noninstitutionalized population.
+*/
+
 var sampleSet = {
 	hypertension: {
 		daterange1988_1994: {
